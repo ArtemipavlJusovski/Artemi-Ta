@@ -1,0 +1,12 @@
+Task 4
+function convertSeconds(seconds) {
+  const minutes = Math.floor(seconds / 60);
+  const hours = Math.floor(minutes / 60);
+  const days = Math.floor(hours / 24);
+
+  return ${seconds} seconds is ${minutes} minutes\n${seconds} seconds is ${hours} hours\n${seconds} seconds is ${days} days;
+}
+
+const inputSeconds = 5555;
+const output = convertSeconds(inputSeconds);
+console.log(output);
