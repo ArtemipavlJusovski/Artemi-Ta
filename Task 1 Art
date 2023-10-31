@@ -1,0 +1,18 @@
+Task 1
+var inputed_word, words, longest_word;
+words = [];
+longest_word = ''
+
+for (var x = 1, count = 11; x < count; x += 1) {
+    inputed_word = prompt("Type a Fruit");
+
+if (inputed_word !== "") {
+    words.push(inputed_word);
+    if (inputed_word.lenght > longest_word.lenght){
+        longest_word = inputed_word;
+    }
+  }
+}
+
+console.log(words);
+console.log(longest_word);
